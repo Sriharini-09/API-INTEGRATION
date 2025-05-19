@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Arima", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal; 
+}
+.title{
+    color: black;
+    padding: 10px;
+}
+
+body{
+    background: #222;
+  }
+.container{
+    padding: 40px 35px;
+    max-width: 500px;
+    width: 80%;
+    margin: 100px auto 0;
+    background:linear-gradient(135deg, #00feba, #5b548a);
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;    
+}
+input{
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    flex: 1;
+    border-radius: 5px;
+    outline: none;
+}
+button{
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;   
+}
+button:hover{
+    cursor: pointer;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
